@@ -1,0 +1,23 @@
+.container {
+  width: 70%;
+  text-align: center;
+
+  .form {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 20px;
+
+    .visible {
+      color: red; 
+    }
+
+    .invisible {
+      display: none;
+    }
+
+    input {
+      margin-right: 10px;
+    }
+  }
+}
